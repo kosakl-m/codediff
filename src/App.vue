@@ -4,11 +4,13 @@
     <!-- <watch-demo/> -->
     <!-- <tabs-demo/> -->
     <!-- <event-demo/> -->
-    <coponents-demo/>
+    <!-- <coponents-Demo/> -->
+    <advanced-use/>
   </div>
 </template>
 
 <script>
+import AdvancedUse from './components/AdvancedUse/index'
 import CoponentsDemo from './components/ComponentsDemo/index'
 import ComputedDemo from './components/ComputedDemo.vue'
 import EventDemo from './components/EventDemo.vue'
@@ -16,11 +18,12 @@ import TabsDemo from './components/TabsDemo.vue'
 import WatchDemo from './components/WatchDemo.vue'
 export default {
   components: {
-    CoponentsDemo
+    // CoponentsDemo
     // EventDemo,
     // ComputedDemo,
     // WatchDemo,
     // TabsDemo,
+    AdvancedUse
   },
   name: 'App'
 }

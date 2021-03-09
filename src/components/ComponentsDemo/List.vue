@@ -47,8 +47,12 @@ export default {
     console.log('list update');
   },
   beforeDestroy() {
+    console.log('list beforeDestroy');
     // 及时销毁，否则可能造成内存泄露
     event.$off('onAddTitle', this.addTitleHandler);
+  },
+  destroyed() {
+    console.log('list destroyed');
   }
 }
 </script>

@@ -44,6 +44,12 @@ export default {
   },
   mounted() {
     console.log('index mounted');
+  },
+  beforeDestroy() {
+    console.log('index beforeDestroy');
+  },
+  destroyed() {
+    console.log('index destroyed');
   }
 }
 </script>
