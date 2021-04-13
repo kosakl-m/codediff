@@ -5,7 +5,8 @@
     <!-- <tabs-demo/> -->
     <!-- <event-demo/> -->
     <!-- <coponents-Demo/> -->
-    <advanced-use/>
+    <!-- <advanced-use/> -->
+    <lineChart/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import ComputedDemo from './components/ComputedDemo.vue'
 import EventDemo from './components/EventDemo.vue'
 import TabsDemo from './components/TabsDemo.vue'
 import WatchDemo from './components/WatchDemo.vue'
+import lineChart from './eChart/lineChart'
 export default {
   components: {
     // CoponentsDemo
@@ -23,7 +25,8 @@ export default {
     // ComputedDemo,
     // WatchDemo,
     // TabsDemo,
-    AdvancedUse
+    // AdvancedUse
+    lineChart
   },
   name: 'App'
 }
